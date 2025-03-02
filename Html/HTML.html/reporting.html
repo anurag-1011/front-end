@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reporting.css">
+</head>
+<body>
+    <div class="reporting-module">
+        <h2>Reporting & Analytics</h2>
+        <form id="reportForm">
+            <label for="reportType">Select Report Type:</label>
+            <select id="reportType" name="reportType">
+                <option value="daily">Daily Attendance</option>
+                <option value="weekly">Weekly Attendance</option>
+            </select>
+            
+            <button type="submit">Generate Report</button>
+        </form>
+        <div class="report-output">
+            <h3>Report Output</h3>
+            <div id="reportContent">Your report will appear here.</div>
+        </div>
+    </div>
+</body>
+</html>

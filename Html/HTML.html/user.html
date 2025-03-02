@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="user-management-module">
+        <h2>User Management</h2>
+        <form id="userManagementForm">
+            <label for="userRole">Select User Role:</label>
+            <select id="userRole" name="userRole ">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="admin">Administrator</option>
+            </select>
+            
+            <label for="userName">User  Name:</label>
+            <input type="text" id="userName" name="userName" required>
+            
+            <button type="submit">Manage User</button>
+        </form>
+    </div>
+</body>
+</html>

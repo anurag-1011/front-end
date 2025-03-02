@@ -1,0 +1,42 @@
+.reporting-module {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reporting-module h2 {
+    text-align: center;
+    color: #333;
+}
+
+.reporting-module label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.reporting-module select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reporting-module button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reporting-module button:hover {
+    background-color: #45a049;
+}
+
+.report-output {
+    margin-top: 20px;
+}

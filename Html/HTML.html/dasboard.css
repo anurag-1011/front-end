@@ -1,0 +1,38 @@
+.dashboard-module {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-module h2 {
+    text-align: center;
+    color: #333;
+}
+
+.quick-access {
+    margin: 20px 0;
+}
+
+.quick-access ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-access li {
+    margin: 10px 0;
+}
+
+.quick-access a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.quick-access a:hover {
+    text-decoration: underline;
+}
+
+.data-visualization {
+    margin-top: 20px;
+}
+
